@@ -14,9 +14,9 @@ type Zap struct {
 	EncodeLevel   string `mapstructure:"encode-level" json:"encode-level" yaml:"encode-level"`       // 编码级
 	StacktraceKey string `mapstructure:"stacktrace-key" json:"stacktrace-key" yaml:"stacktrace-key"` // 栈名
 
-	MaxAge       string `mapstructure:"max-age" json:"max-age" yaml:"max-age"`                      // 日志存留时间
-	ShowLine     string `mapstructure:"show-line" json:"show-line" yaml:"show-line"`                // 日志行
-	LogInConsole string `mapstructure:"log-in-console" json:"log-in-console" yaml:"log-in-console"` // 输出控制台
+	MaxAge       int `mapstructure:"max-age" json:"max-age" yaml:"max-age"`                      // 日志存留时间
+	ShowLine     bool `mapstructure:"show-line" json:"show-line" yaml:"show-line"`                // 日志行
+	LogInConsole bool `mapstructure:"log-in-console" json:"log-in-console" yaml:"log-in-console"` // 输出控制台
 }
 
 // ZapEncodeLevel 根据 EncodeLevel 返回 zapcore.LevelEncoder

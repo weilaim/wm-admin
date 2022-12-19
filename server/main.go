@@ -13,5 +13,6 @@ import (
 func main() {
 	global.WM_VP = core.Viper() // 初始化Viper
 	initialize.OtherInit()
-
+	global.WM_LOG = core.Zap()
+	global.WM_LOG.Error("测试失败!")
 }
