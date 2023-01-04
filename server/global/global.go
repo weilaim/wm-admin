@@ -25,7 +25,7 @@ var (
 	WM_Timer               timer.Timer = timer.NewTimerTask()
 	WM_Concurrency_Control             = &singleflight.Group{}
 
-	BlackCach local_cache.Cache
+	BlackCache local_cache.Cache
 	lock      sync.RWMutex
 )
 

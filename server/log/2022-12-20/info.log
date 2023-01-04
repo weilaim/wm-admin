@@ -1,0 +1,6 @@
+[github.com/weilaim/wm-admin/server]2022/12/20 - 16:44	[34minfo[0m	/home/imo/code/wm-admin/server/initialize/gorm.go:35	register table success
+[github.com/weilaim/wm-admin/server]2022/12/20 - 16:44	[34minfo[0m	/home/imo/code/wm-admin/server/initialize/router.go:47	router regidter success
+[github.com/weilaim/wm-admin/server]2022/12/20 - 16:44	[34minfo[0m	/home/imo/code/wm-admin/server/core/server.go:34	serever run success on	{"address": ":8888"}
+[github.com/weilaim/wm-admin/server]2022/12/20 - 16:49	[34minfo[0m	/home/imo/code/wm-admin/server/initialize/gorm.go:35	register table success
+[github.com/weilaim/wm-admin/server]2022/12/20 - 16:49	[34minfo[0m	/home/imo/code/wm-admin/server/initialize/router.go:46	router regidter success
+[github.com/weilaim/wm-admin/server]2022/12/20 - 16:49	[34minfo[0m	/home/imo/code/wm-admin/server/core/server.go:34	serever run success on	{"address": ":8888"}

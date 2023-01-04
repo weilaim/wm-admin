@@ -17,7 +17,7 @@ func OtherInit() {
 		panic(err)
 	}
 
-	global.BlackCach = local_cache.NewCache(
+	global.BlackCache = local_cache.NewCache(
 		local_cache.SetDefaultExpire(dr),
 	)
 }

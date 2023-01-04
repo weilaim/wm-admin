@@ -29,7 +29,7 @@ aws-s3:
   secret-id: your-secret-id
   secret-key: your-secret-key
   base-url: https://gin.vue.admin
-  path-prefix: github.com/flipped-aurora/gin-vue-admin/server
+  path-prefix: github.com/weilaim/wm-admin/server
 captcha:
   key-long: 6
   img-width: 240
@@ -94,7 +94,7 @@ mysql:
   path: 127.0.0.1
   port: "3306"
   config: charset=utf8mb4&parseTime=True&loc=Local
-  db-name: gva
+  db-name: wmadmin
   username: root
   password: "123456"
   prefix: ""
@@ -157,7 +157,7 @@ tencent-cos:
   secret-id: your-secret-id
   secret-key: your-secret-key
   base-url: https://gin.vue.admin
-  path-prefix: github.com/flipped-aurora/gin-vue-admin/server
+  path-prefix: github.com/weilaim/wm-admin/server 
 timer:
   start: true
   spec: '@daily'
@@ -171,7 +171,7 @@ timer:
     interval: 168h
 zap:
   level: info
-  prefix: '[github.com/flipped-aurora/gin-vue-admin/server]'
+  prefix: '[github.com/weilaim/wm-admin/server]'
   format: console
   director: log
   encode-level: LowercaseColorLevelEncoder
