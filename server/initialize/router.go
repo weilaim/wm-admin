@@ -51,6 +51,6 @@ func Routers() *gin.Engine {
 		systemRouter.InitUserRouter(PrivateGroup)
 	}
 
-	global.WM_LOG.Info("router regidter success")
+	global.WM_LOG.Info("router register success")
 	return Router
 }

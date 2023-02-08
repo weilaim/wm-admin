@@ -1,4 +1,0 @@
-[github.com/weilaim/wm-admin/server]2022/12/27 - 09:25	[34minfo[0m	/home/imo/code/wm-admin/server/initialize/router.go:46	router regidter success
-[github.com/weilaim/wm-admin/server]2022/12/27 - 09:25	[34minfo[0m	/home/imo/code/wm-admin/server/core/server.go:34	serever run success on	{"address": ":8888"}
-[github.com/weilaim/wm-admin/server]2022/12/27 - 11:20	[34minfo[0m	/home/imo/code/wm-admin/server/initialize/router.go:47	router regidter success
-[github.com/weilaim/wm-admin/server]2022/12/27 - 11:20	[34minfo[0m	/home/imo/code/wm-admin/server/core/server.go:34	serever run success on	{"address": ":8888"}

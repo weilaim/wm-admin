@@ -1,181 +1,181 @@
 aliyun-oss:
-  endpoint: yourEndpoint
-  access-key-id: yourAccessKeyId
-  access-key-secret: yourAccessKeySecret
-  bucket-name: yourBucketName
-  bucket-url: yourBucketUrl
-  base-path: yourBasePath
+    endpoint: yourEndpoint
+    access-key-id: yourAccessKeyId
+    access-key-secret: yourAccessKeySecret
+    bucket-name: yourBucketName
+    bucket-url: yourBucketUrl
+    base-path: yourBasePath
 autocode:
-  transfer-restart: true
-  root: /home/imo/code/gin-vue-admin
-  server: /server
-  server-api: /api/v1/%s
-  server-plug: /plugin/%s
-  server-initialize: /initialize
-  server-model: /model/%s
-  server-request: /model/%s/request/
-  server-router: /router/%s
-  server-service: /service/%s
-  web: /web/src
-  web-api: /api
-  web-form: /view
-  web-table: /view
+    transfer-restart: true
+    root: /home/imo/code/wm-admin
+    server: /server
+    server-api: /api/v1/%s
+    server-plug: /plugin/%s
+    server-initialize: /initialize
+    server-model: /model/%s
+    server-request: /model/%s/request/
+    server-router: /router/%s
+    server-service: /service/%s
+    web: /web/src
+    web-api: /api
+    web-form: /view
+    web-table: /view
 aws-s3:
-  bucket: xxxxx-10005608
-  region: ap-shanghai
-  endpoint: ""
-  s3-force-path-style: false
-  disable-ssl: false
-  secret-id: your-secret-id
-  secret-key: your-secret-key
-  base-url: https://gin.vue.admin
-  path-prefix: github.com/weilaim/wm-admin/server
+    bucket: xxxxx-10005608
+    region: ap-shanghai
+    endpoint: ""
+    s3-force-path-style: false
+    disable-ssl: false
+    secret-id: your-secret-id
+    secret-key: your-secret-key
+    base-url: https://gin.vue.admin
+    path-prefix: github.com/weilaim/wm-admin/server
 captcha:
-  key-long: 6
-  img-width: 240
-  img-height: 80
+    key-long: 6
+    img-width: 240
+    img-height: 80
 cors:
-  mode: strict-whitelist
-  whitelist:
-  - allow-origin: example1.com
-    allow-methods: POST, GET
-    allow-headers: Content-Type,AccessToken,X-CSRF-Token, Authorization, Token,X-Token,X-User-Id
-    expose-headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers,
-      Content-Type
-    allow-credentials: true
-  - allow-origin: example2.com
-    allow-methods: GET, POST
-    allow-headers: content-type
-    expose-headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers,
-      Content-Type
-    allow-credentials: true
+    mode: strict-whitelist
+    whitelist:
+        - allow-origin: example1.com
+          allow-methods: POST, GET
+          allow-headers: Content-Type,AccessToken,X-CSRF-Token, Authorization, Token,X-Token,X-User-Id
+          expose-headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers, Content-Type
+          allow-credentials: true
+        - allow-origin: example2.com
+          allow-methods: GET, POST
+          allow-headers: content-type
+          expose-headers: Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers, Content-Type
+          allow-credentials: true
 db-list:
-- disable: true
-  type: ""
-  alias-name: ""
-  path: ""
-  port: ""
-  config: ""
-  db-name: ""
-  username: ""
-  password: ""
-  prefix: ""
-  singular: false
-  engine: ""
-  max-idle-conns: 10
-  max-open-conns: 100
-  log-mode: ""
-  log-zap: false
+    - disable: true
+      type: ""
+      alias-name: ""
+      path: ""
+      port: ""
+      config: ""
+      db-name: ""
+      username: ""
+      password: ""
+      prefix: ""
+      singular: false
+      engine: ""
+      max-idle-conns: 10
+      max-open-conns: 100
+      log-mode: ""
+      log-zap: false
 email:
-  to: xxx@qq.com
-  port: 465
-  from: xxx@163.com
-  host: smtp.163.com
-  is-ssl: true
-  secret: xxx
-  nickname: test
+    to: xxx@qq.com
+    port: 465
+    from: xxx@163.com
+    host: smtp.163.com
+    is-ssl: true
+    secret: xxx
+    nickname: test
 excel:
-  dir: ./resource/excel/
+    dir: ./resource/excel/
 hua-wei-obs:
-  path: you-path
-  bucket: you-bucket
-  endpoint: you-endpoint
-  access-key: you-access-key
-  secret-key: you-secret-key
+    path: you-path
+    bucket: you-bucket
+    endpoint: you-endpoint
+    access-key: you-access-key
+    secret-key: you-secret-key
 jwt:
-  signing-key: 13c1ff4e-da0b-4eaf-a984-5654230a0c45
-  expires-time: 7d
-  buffer-time: 1d
-  issuer: qmPlus
+    signing-key: fa1aee10-4f0a-4db7-ba99-f9b599ed8ce2
+    expires-time: 7d
+    buffer-time: 1d
+    issuer: qmPlus
 local:
-  path: uploads/file
-  store-path: uploads/file
+    path: uploads/file
+    store-path: uploads/file
 mysql:
-  path: 127.0.0.1
-  port: "3306"
-  config: charset=utf8mb4&parseTime=True&loc=Local
-  db-name: wmadmin
-  username: root
-  password: "123456"
-  prefix: ""
-  singular: false
-  engine: ""
-  max-idle-conns: 10
-  max-open-conns: 100
-  log-mode: error
-  log-zap: false
+    path: 127.0.0.1
+    port: "3306"
+    config: charset=utf8mb4&parseTime=True&loc=Local
+    db-name: wmadmin
+    username: root
+    password: "123456"
+    prefix: ""
+    singular: false
+    engine: ""
+    max-idle-conns: 10
+    max-open-conns: 100
+    log-mode: error
+    log-zap: false
 oracle:
-  path: ""
-  port: ""
-  config: ""
-  db-name: ""
-  username: ""
-  password: ""
-  prefix: ""
-  singular: false
-  engine: ""
-  max-idle-conns: 0
-  max-open-conns: 0
-  log-mode: ""
-  log-zap: false
+    config: ""
+    db-name: ""
+    engine: ""
+    log-mode: ""
+    log-zap: false
+    max-idle-conns: 0
+    max-open-conns: 0
+    password: ""
+    path: ""
+    port: ""
+    prefix: ""
+    singular: false
+    username: ""
 pgsql:
-  path: ""
-  port: ""
-  config: ""
-  db-name: ""
-  username: ""
-  password: ""
-  prefix: ""
-  singular: false
-  engine: ""
-  max-idle-conns: 10
-  max-open-conns: 100
-  log-mode: ""
-  log-zap: false
+    path: ""
+    port: ""
+    config: ""
+    db-name: ""
+    username: ""
+    password: ""
+    prefix: ""
+    singular: false
+    engine: ""
+    max-idle-conns: 10
+    max-open-conns: 100
+    log-mode: ""
+    log-zap: false
 qiniu:
-  zone: ZoneHuaDong
-  bucket: ""
-  img-path: ""
-  use-https: false
-  access-key: ""
-  secret-key: ""
-  use-cdn-domains: false
+    zone: ZoneHuaDong
+    bucket: ""
+    img-path: ""
+    use-https: false
+    access-key: ""
+    secret-key: ""
+    use-cdn-domains: false
 redis:
-  db: 0
-  addr: 127.0.0.1:6379
-  password: ""
+    db: 0
+    addr: 127.0.0.1:6379
+    password: ""
 system:
-  env: public
-  addr: 8888
-  db-type: mysql
-  oss-type: local
-  use-multipoint: false
-  iplimit-time: 3600
+    env: public
+    addr: 8888
+    db-type: mysql
+    oss-type: local
+    use-multipoint: false
+    use-redis: false
+    iplimit-count: 0
+    iplimit-time: 3600
 tencent-cos:
-  bucket: xxxxx-10005608
-  region: ap-shanghai
-  secret-id: your-secret-id
-  secret-key: your-secret-key
-  base-url: https://gin.vue.admin
-  path-prefix: github.com/weilaim/wm-admin/server 
+    bucket: xxxxx-10005608
+    region: ap-shanghai
+    secret-id: your-secret-id
+    secret-key: your-secret-key
+    base-url: https://gin.vue.admin
+    path-prefix: github.com/weilaim/wm-admin/server
 timer:
-  start: true
-  spec: '@daily'
-  with_seconds: false
-  detail:
-  - tableName: sys_operation_records
-    compareField: created_at
-    interval: 2160h
-  - tableName: jwt_blacklists
-    compareField: created_at
-    interval: 168h
+    start: true
+    spec: '@daily'
+    with_seconds: false
+    detail:
+        - tableName: sys_operation_records
+          compareField: created_at
+          interval: 2160h
+        - tableName: jwt_blacklists
+          compareField: created_at
+          interval: 168h
 zap:
-  level: info
-  prefix: '[github.com/weilaim/wm-admin/server]'
-  format: console
-  director: log
-  encode-level: LowercaseColorLevelEncoder
-  stacktrace-key: stacktrace
-  max-age: 0
-  show-line: true
-  log-in-console: true
+    level: info
+    prefix: '[github.com/weilaim/wm-admin/server]'
+    format: console
+    director: log
+    encode-level: LowercaseColorLevelEncoder
+    stacktrace-key: stacktrace
+    max-age: 0
+    show-line: true
+    log-in-console: true

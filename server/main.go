@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 
 	"github.com/weilaim/wm-admin/server/core"
 	"github.com/weilaim/wm-admin/server/global"
@@ -14,8 +13,6 @@ import (
 //go:generate go mod tidy
 //go:generate go mod download
 func main() {
-
-	fmt.Println("我走到这里")
 	global.WM_VP = core.Viper() // 初始化Viper
 	initialize.OtherInit()
 	global.WM_LOG = core.Zap() // 初始化zap日志库

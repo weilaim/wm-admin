@@ -10,9 +10,9 @@ type InitDB struct {
 	DBType   string `json:"dbType"`
 	Host     string `json:"host"`
 	Port     string `json:"port"`
-	UserName string `json:"user_name" binding:"required"`
+	UserName string `json:"userName" binding:"required"`
 	Password string `json:"password"`
-	DBName   string `json:"dbname" binding:"required"`
+	DBName   string `json:"dbName" binding:"required"`
 }
 
 //空数据库空连接

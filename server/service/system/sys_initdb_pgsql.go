@@ -81,6 +81,7 @@ func (h PgsqlInitHandler) InitData(ctx context.Context, inits initSlice) error {
 			color.Info.Printf(InitDataExist, Pgsql, inits[i].InitializerName())
 			continue
 		}
+		// source initData
 		if n, err := inits[i].InitializeData(next); err != nil {
 			color.Info.Printf(InitDataFailed, Pgsql, inits[i].InitializerName(), err)
 			return err

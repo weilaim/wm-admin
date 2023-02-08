@@ -26,6 +26,18 @@ func RegisterTables(db *gorm.DB) {
 	err := db.AutoMigrate(
 		// 系统模块
 		system.SysApi{},
+		system.SysUser{},
+		system.SysBaseMenu{},
+		system.JwtBlacklist{},
+		system.SysAuthority{},
+		// system.SysDictionary{},
+		system.SysOperationRecord{},
+		// system.SysAutoCodeHistory{},
+		// system.SysDictionaryDetail{},
+		system.SysBaseMenuParameter{},
+		system.SysBaseMenuBtn{},
+		// system.SysAutoCode{},
+
 	)
 	if err != nil {
 		global.WM_LOG.Error("register table failed", zap.Error(err))

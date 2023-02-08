@@ -21,6 +21,7 @@ func (b *BaseApi) Login(c *gin.Context) {
 // 用户注册账号。
 func (b *BaseApi) Register(c *gin.Context) {
 	var r systemReq.Register
+	fmt.Println(r.Phone)
 	err := c.ShouldBindJSON(&r)
 	if err != nil {
 		response.FailWithMessage(err.Error(), c)
@@ -45,9 +46,9 @@ func (b *BaseApi) Register(c *gin.Context) {
 	if err != nil {
 		global.WM_LOG.Error("注册失败!", zap.Error(err))
 		response.FailWithDetailed(systemRes.SysUserResponse{User: userReturn}, "注册失败", c)
-		return 
+		return
 	}
 
-	response.OkWithDetailed(systemRes.SysUserResponse{User: userReturn},"注册成功",c)
+	response.OkWithDetailed(systemRes.SysUserResponse{User: userReturn}, "注册成功", c)
 
 }

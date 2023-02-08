@@ -17,6 +17,7 @@ require (
 	github.com/songzhibin97/gkit v1.2.7
 	github.com/spf13/viper v1.14.0
 	go.uber.org/zap v1.24.0
+	golang.org/x/crypto v0.0.0-20221005025214-4161e89ecf1b
 	golang.org/x/sync v0.1.0
 	gorm.io/driver/mysql v1.4.1
 	gorm.io/driver/postgres v1.4.4
@@ -72,7 +73,6 @@ require (
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
-	golang.org/x/crypto v0.0.0-20221005025214-4161e89ecf1b // indirect
 	golang.org/x/net v0.0.0-20221014081412-f15817d10f9b // indirect
 	golang.org/x/sys v0.0.0-20220908164124-27713097b956 // indirect
 	golang.org/x/text v0.4.0 // indirect
